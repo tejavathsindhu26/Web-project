@@ -1,0 +1,356 @@
+/* .menu{
+  display: flex;
+  padding:20px;
+  flex-direction:row;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: wheat;
+  color: darkgreen;
+}
+.header{
+  background-color:skyblue;
+  text-align:center ;
+  font-size:xx-large;
+  border: solid;
+}
+img{
+  width: 100px;
+  height: 100px;
+
+}
+.menu>div:hover{
+  display: flex;
+  padding:20px;
+  flex-direction:row;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: wheat;
+  color:whitesmoke;
+}
+.branch{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  font-size: xx-large;
+  background-color:silver;
+  border: solid;
+}
+.last{
+  display: flex;
+  flex-direction: row;
+}
+.subitems{
+  display: none;
+}
+.menu-item:hover .subitems{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  background-color:black;
+}
+.subitems>div{
+  padding: 10px;
+}
+.work{
+  background-color:pink;
+  margin: auto;
+  border: solid;
+}
+.m{
+  display: none;
+}
+.students{
+  display: none;
+}
+.about{
+  display: none;
+}
+.menu-item:hover .about{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: absolute;
+  background-color:black;
+}
+.menu-item:hover .students{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: absolute;
+  background-color:black;
+}
+.fac{
+  display: none;
+}
+button{
+  background-color: blue;
+}
+.add{
+  text-align: center;
+  background-color: aqua;
+}
+.del{
+  text-align: center;
+background-color:chocolate;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  text-align: center;
+  font-size:50px ;
+}
+.courses{
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  font-size: large;
+
+}
+/* .table{
+  display: flex;
+  flex-direction: row;
+  background-color: chocolate;
+  color: black;
+  font-size: large;
+}
+.tablet{
+  display: flex;
+  flex-direction: row;
+  background-color: cyan;
+  color: black;
+  font-size: large;
+} 
+ .form{
+  display: flex;
+  background-color: hotpink;
+  color: beige;
+  font-family: 20px;
+  flex-direction: column;
+ } */
+
+
+
+
+
+
+.man {
+  display: flex;
+  flex-direction: row;
+  background-color: peru;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(2, 19, 76);
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: wheat;
+  color: darkgreen;
+}
+
+.menu>div:hover{
+  display: flex;
+  padding:20px;
+  flex-direction:row;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: wheat;
+  color:rebeccapurple;
+}
+
+.menu-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.subitem {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 6px 8px rgba(0,0,0,0.1);
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.menu-item:active .subitem {
+  display: block;
+  opacity: 2;
+  animation-delay: 1s; /* Delay for 2 seconds */
+}
+.menu-item:hover .subitems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  background-color: black;
+  animation-delay: 2s;
+}
+
+.subitems > div {
+  padding: 10px;
+}
+
+.student {
+  display: none;
+}
+.subitem {
+  display: none;
+  /* position: absolute; */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 2px 6px 8px rgba(0,0,0,0.1);
+}
+
+.menu-item {
+  position: relative;
+}
+
+/* Show subitem on hover */
+.menu-item:hover .subitem {
+  display: block;
+}
+
+.table{
+  
+ 
+  text-align: center;
+  background-color: bisque;
+  color: black;
+  padding: 2px;
+}
+.p{
+  
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: left;
+  
+}
+.car{
+  
+  background-color: cadetblue;
+}
+.form{
+  padding: 3px;
+  background-color: darkgray;
+  font-size: 20px;
+  text-align: center;
+}
+.for{
+    border: 2px solid black; /* Border with solid black color */
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+    justify-content: space-around;
+}
+
+
+.dummy1{
+  margin:50px 50px 50px 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: aqua;
+  font-style: italic;
+  text-align: center;
+  border-radius: 50px;
+}
+.free{
+  background-color: mistyrose;
+  padding: auto;
+
+  border-radius: 50px;
+
+}
+.previous{
+  background-color: blanchedalmond;
+  padding: 2px;
+  color:black;
+  border-image: fill;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  overflow-x: auto;
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+.next-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.next-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  justify-content: center;
+}
+
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.w3-button {
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
